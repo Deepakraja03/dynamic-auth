@@ -1,3 +1,3 @@
-const createAuthMiddleware = require('./lib/authMiddleware');
+const {createAuthMiddleware, createMongoDBConnection} = require('./lib/authMiddleware');
 
-module.exports = createAuthMiddleware;
+module.exports = createAuthMiddleware, createMongoDBConnection;
